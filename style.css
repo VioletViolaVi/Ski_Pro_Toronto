@@ -71,10 +71,25 @@ a:hover {
 
 /************************************************************************ socials */
 
+#toggleSocials {
+    position: fixed;
+    top: 18rem;
+    font-size: 2rem;
+    left: 3%;
+}
+
+#toggleSocials:hover {
+    left: 4%;
+}
+
+#toggleSocials .fas.fa-angle-right {
+    cursor: pointer;
+}
+
 #socials {
     position: fixed;
-    margin: 50% 1rem;
-    top: 2.1rem;
+    top: 21rem;
+    left: 1rem;
 }
 
 #socials ul {
