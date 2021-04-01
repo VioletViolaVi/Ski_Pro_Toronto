@@ -1,3 +1,6 @@
-$(document).ready(function () {
-  console.log("hi");
+$("document").ready(function () {
+  // toggles small nav
+  $("#barsBg .fas.fa-bars").on("click", () => {
+    $("#smallNavBg").slideToggle();
+  });
 });
