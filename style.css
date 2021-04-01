@@ -75,8 +75,34 @@ a:hover {
     margin-bottom: 1rem;
 }
 
-#socials li:hover {
-    color: #14f7be;
+#socials .fab.fa-instagram:hover, #socials .fab.fa-youtube:hover, #socials .fab.fa-twitter:hover, #socials .fab.fa-snapchat-ghost:hover, #socials .fab.fa-pinterest:hover, #socials .fab.fa-facebook:hover {
+    color: white;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+#socials .fab.fa-instagram:hover {
+    background: #125688;
+}
+
+#socials .fab.fa-youtube:hover {
+    background: #bb0000;
+}
+
+#socials .fab.fa-twitter:hover {
+    background: #55ACEE;
+}
+
+#socials .fab.fa-snapchat-ghost:hover {
+    background: #fffc00;
+}
+
+#socials .fab.fa-pinterest:hover {
+    background: #cb2027;
+}
+
+#socials .fab.fa-facebook:hover {
+    background: #3B5998;
 }
 
 /************************************************************************ home */
