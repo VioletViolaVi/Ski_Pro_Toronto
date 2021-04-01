@@ -5,7 +5,7 @@ $("document").ready(function () {
   });
 
   // shows socials
-  $("#toggleSocials .fas.fa-angle-down").on("click", () => {
+  $("#toggleSocials .fas.fa-caret-square-down").on("click", () => {
     $("#socials").fadeToggle("fast");
   });
 });

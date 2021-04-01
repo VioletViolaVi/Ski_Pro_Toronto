@@ -22,10 +22,6 @@ a {
     color: #0e7a61;
 }
 
-a:hover {
-    border-bottom: #0e7a61 solid 0.1rem;
-}
-
 /************************************************************************ bars */
 
 #barsBg {
@@ -67,18 +63,22 @@ a:hover {
     margin-right: 1rem;
 }
 
+#smallNavBg a:hover {
+    border-bottom: #0e7a61 solid 0.1rem;
+}
+
 /************************************************************************ big nav */
 
 /************************************************************************ socials */
 
 #toggleSocials {
     position: fixed;
-    top: 44%;
+    top: 43%;
     font-size: 2rem;
-    left: 3.5%;
+    left: 4.3%;
 }
 
-#toggleSocials .fas.fa-angle-down {
+#toggleSocials .fas.fa-caret-square-down {
     cursor: pointer;
 }
 
@@ -104,7 +104,7 @@ a:hover {
     padding: 0.5rem;
 }
 
-#socials .fab.fa-instagram:hover, #socials .fab.fa-youtube:hover, #socials .fab.fa-twitter:hover, #socials .fab.fa-snapchat-ghost:hover, #socials .fab.fa-pinterest:hover, #socials .fab.fa-facebook:hover {
+#toggleSocials .fas.fa-caret-square-down:hover, #socials .fab.fa-instagram:hover, #socials .fab.fa-youtube:hover, #socials .fab.fa-twitter:hover, #socials .fab.fa-snapchat-ghost:hover, #socials .fab.fa-pinterest:hover, #socials .fab.fa-facebook:hover {
     color: #14f7be;
 }
 
