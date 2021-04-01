@@ -12,6 +12,10 @@ body {
     color: #0e7a61;
 }
 
+ul li {
+    list-style: none;
+}
+
 a {
     list-style: none;
     text-decoration: none;
@@ -59,6 +63,21 @@ a:hover {
 /************************************************************************ big nav */
 
 /************************************************************************ socials */
+
+#socials ul {
+    font-size: 1.7rem;
+    margin: 50% 0rem 50% 0.3rem;
+}
+
+#socials li {
+    text-align: left;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+#socials li:hover {
+    color: #14f7be;
+}
 
 /************************************************************************ home */
 
