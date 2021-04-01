@@ -31,6 +31,9 @@ a:hover {
 #barsBg {
     text-align: left;
     background-color: #49bea3;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
 }
 
 #barsBg .fas.fa-bars {
@@ -50,6 +53,10 @@ a:hover {
     font-size: 2rem;
     background-color: #9ef5df;
     display: none;
+    top: 2rem;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
 }
 
 #smallNavBg li {
@@ -64,13 +71,17 @@ a:hover {
 
 /************************************************************************ socials */
 
+#socials {
+    position: fixed;
+    margin: 50% 1rem;
+    top: 2.1rem;
+}
+
 #socials ul {
     font-size: 1.7rem;
-    margin: 50% 0rem 50% 0.3rem;
 }
 
 #socials li {
-    text-align: left;
     cursor: pointer;
     margin-bottom: 1rem;
 }
@@ -106,6 +117,20 @@ a:hover {
 }
 
 /************************************************************************ home */
+
+#home h1 {
+    position: absolute;
+    top: 5rem;
+    left: 1rem;
+}
+
+#home img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    margin-top: 2.1rem;
+}
 
 /************************************************************************ skills */
 
