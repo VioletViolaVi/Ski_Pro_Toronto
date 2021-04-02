@@ -103,14 +103,15 @@ figcaption {
     position: fixed;
     right: 0.5em;
     z-index: 1;
-    background-color: darkred;
-    border-radius: 0.2rem;
 }
 
-.fas.fa-angle-double-upp {
-    border-radius: 2em;
+#backToTopSec .fas.fa-angle-double-up {
     cursor: pointer;
-    border: 0.1em solid darkred;
+    font-size: 1.8rem;
+}
+
+#backToTopSec .fas.fa-angle-double-up:hover {
+    color: #14f7be;
 }
 
 /************************************************************************ socials */
