@@ -91,6 +91,10 @@ figcaption {
 
 /************************************************************************ big nav */
 
+#bigNavBg {
+    display: none;
+}
+
 /************************************************************************ socials */
 
 #toggleSocials {
@@ -363,6 +367,74 @@ body {
         font-size: 3rem;
         top: 13rem;
         left: 6rem;
+    }
+    /************************************************************************ skills */
+    #skills figcaption {
+        font-size: 2.2rem;
+    }
+    #skills h2 {
+        font-size: 2.4rem;
+    }
+    #skills ul {
+        font-size: 1.7rem;
+    }
+    /************************************************************************ prices */
+    #prices h2 {
+        font-size: 2.4rem;
+    }
+    #prices dt {
+        font-size: 1.7rem;
+    }
+    #prices dd {
+        font-size: 1.6rem;
+    }
+    #prices figcaption {
+        font-size: 2.2rem;
+    }
+}
+
+@media only screen and (min-width: 850px) {
+    /************************************************************************ home */
+    #home img {
+        height: 25rem;
+    }
+    #home h1 {
+        font-size: 5rem;
+        left: 2.5rem;
+        top: 7rem;
+    }
+    #home figcaption {
+        font-size: 3.3rem;
+        top: 14rem;
+        left: 9rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    /************************************************************************ small nav */
+    #barsBg, #smallNavBg {
+        display: none;
+    }
+    /************************************************************************ big nav */
+    #bigNavBg {
+        display: block;
+        position: absolute;
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+    #bigNavBg li {
+        display: inline;
+        margin: 2rem;
+        border: 0.1rem solid #0e7a61;
+        padding: 0rem 1.5rem;
+        cursor: pointer;
+    }
+    #bigNavBg li:hover {
+        border: 0.1rem solid #49bea3;
+    }
+    /************************************************************************ home */
+    #home img {
+        margin-top: 0rem;
     }
 }
 
