@@ -199,6 +199,24 @@ figcaption {
     font-size: 1.5rem;
 }
 
+#joinNow {
+    position: absolute;
+    top: 13.9rem;
+    left: 6rem;
+    padding: 0rem 0.5rem;
+    background-color: #49bea3;
+    border-radius: 0.5rem;
+    border: solid 0.2rem #0e7a61;
+    color: #0e7a61;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+#joinNow:hover {
+    color: #14f7be;
+    border: solid 0.2rem #14f7be;
+}
+
 /************************************************************************ skills */
 
 #skills {
@@ -341,6 +359,9 @@ body {
         font-size: 2.5rem;
         top: 9rem;
     }
+    #joinNow {
+        left: 9rem;
+    }
 }
 
 @media only screen and (min-width: 520px) {
@@ -383,6 +404,10 @@ body {
         top: 13rem;
         left: 6rem;
     }
+    #joinNow {
+        left: 16rem;
+        top: 18.5rem;
+    }
     /************************************************************************ skills */
     #skills figcaption {
         font-size: 2.2rem;
@@ -423,6 +448,10 @@ body {
         top: 14rem;
         left: 9rem;
     }
+    #joinNow {
+        left: 21rem;
+        top: 20rem;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -445,7 +474,7 @@ body {
         cursor: pointer;
     }
     #bigNavBg li:hover {
-        border: 0.1rem solid #49bea3;
+        border: 0.2rem solid #14f7be;
     }
     /************************************************************************ home */
     #home img {
@@ -456,6 +485,11 @@ body {
     }
     #home figcaption {
         top: 12rem;
+    }
+    #joinNow {
+        left: 17rem;
+        top: 17.5rem;
+        font-size: 2rem;
     }
     /************************************************************************ skills */
     #skills {
@@ -512,6 +546,11 @@ body {
         top: 17rem;
         font-size: 5rem;
     }
+    #joinNow {
+        left: 27rem;
+        top: 25.5rem;
+        font-size: 3rem;
+    }
 }
 
 @media only screen and (min-width: 1300px) {
@@ -537,6 +576,11 @@ body {
         top: 23rem;
         font-size: 7rem;
         left: 7rem;
+    }
+    #joinNow {
+        left: 30rem;
+        top: 35rem;
+        font-size: 4rem;
     }
     /************************************************************************ socials */
     #toggleSocials {
@@ -606,6 +650,10 @@ body {
         font-size: 6rem;
         left: 13rem;
         top: 17.1rem;
+    }
+    #joinNow {
+        left: 32rem;
+        top: 27rem;
     }
     /************************************************************************ socials */
     #toggleSocials {
