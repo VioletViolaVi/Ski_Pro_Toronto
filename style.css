@@ -10,6 +10,7 @@
 body {
     font-family: 'Patrick Hand', cursive;
     color: #0e7a61;
+    cursor: default;
 }
 
 ul li {
@@ -136,8 +137,9 @@ a {
 
 #home h1 {
     position: absolute;
-    top: 5rem;
-    left: 1rem;
+    top: 6.5rem;
+    left: 0.5rem;
+    font-size: 2rem;
 }
 
 #home img {
@@ -146,6 +148,13 @@ a {
     background-size: cover;
     width: 100%;
     margin-top: 2.1rem;
+}
+
+#home figcaption {
+    position: absolute;
+    top: 10rem;
+    left: 1.5rem;
+    font-size: 1.5rem;
 }
 
 /************************************************************************ skills */
