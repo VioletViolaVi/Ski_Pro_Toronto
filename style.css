@@ -13,9 +13,26 @@ body {
     cursor: default;
 }
 
+h2 {
+    font-size: 1.4rem;
+    padding-bottom: 0.6rem;
+}
+
+ul, dl {
+    list-style-type: none;
+}
+
 a {
     text-decoration: none;
     color: #0e7a61;
+}
+
+figcaption {
+    font-size: 1.2rem;
+}
+
+.far.fa-snowflake {
+    font-size: 0.6rem;
 }
 
 /************************************************************************ bars */
@@ -164,29 +181,6 @@ a {
     margin-bottom: 1rem;
 }
 
-#skills figcaption {
-    font-size: 1.2rem;
-}
-
-#skills h2, #skills li {
-    padding-bottom: 0.6rem;
-}
-
-#skills h2 {
-    font-size: 1.4rem;
-}
-
-#skills ul {
-    text-align: left;
-    margin-left: 28%;
-    list-style: none;
-    font-size: 1.1rem;
-}
-
-#skills .far.fa-snowflake {
-    font-size: 0.6rem;
-}
-
 #skills img {
     border: solid 0.3rem #49bea3;
     height: 10rem;
@@ -194,6 +188,40 @@ a {
     border-radius: 5rem;
 }
 
+#skills li {
+    padding-bottom: 0.6rem;
+}
+
+#skills ul {
+    list-style: none;
+    font-size: 1.1rem;
+}
+
 /************************************************************************ prices */
+
+#prices {
+    margin-top: 2rem;
+    padding: 2rem 0rem;
+    background-color: #e6f7f2;
+}
+
+#prices dl {
+    padding-bottom: 1.5rem;
+}
+
+#prices dt {
+    font-size: 1.3rem;
+}
+
+#prices dd {
+    font-size: 1.1rem;
+}
+
+#prices img {
+    border: solid 0.3rem #49bea3;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 5rem;
+}
 
 /************************************************************************ footer */
