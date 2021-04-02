@@ -37,11 +37,20 @@ figcaption {
 
 /************************************************************************ small nav */
 
-/* bars */
+.overlay {
+    background-color: #0b523c;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0rem;
+    z-index: 1;
+    opacity: 0.3;
+    display: none;
+}
 
 #barsBg {
     text-align: left;
-    background-color: #49bea3;
+    background-color: #cffaed;
     position: fixed;
     width: 100%;
     z-index: 1;
@@ -57,12 +66,10 @@ figcaption {
     color: #14f7be;
 }
 
-/* nav */
-
 #smallNavBg {
     padding: 1rem 0rem;
     font-size: 2rem;
-    background-color: #e6f7f2;
+    background-color: #cffaed;
     display: none;
     top: 2rem;
     position: fixed;
@@ -91,7 +98,7 @@ figcaption {
     top: 28%;
     font-size: 2rem;
     left: 1.4%;
-    opacity: 0.5;
+    color: #cffaed;
 }
 
 #toggleSocials .fas.fa-caret-square-down {
@@ -236,14 +243,130 @@ body {
 }
 
 #footer {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     min-height: 0%;
     width: 100%;
-    background-color: #49bea3;
-    padding: 0.5rem 0.2rem 0rem;
+    background-color: #cffaed;
+    padding: 0.5rem 0.1rem 0.4rem;
 }
 
 #footer p {
     font-size: 1.3rem;
 }
+
+/************************************************************************ media queries */
+
+@media only screen and (min-width: 422px) {
+    /************************************************************************ socials */
+    #toggleSocials {
+        top: 30%;
+    }
+    #socials {
+        top: 36%;
+    }
+    /************************************************************************ home */
+    #home h1 {
+        font-size: 2.5rem;
+    }
+    #home figcaption {
+        font-size: 2rem;
+    }
+    /************************************************************************ skills */
+    #skills img {
+        border: solid 0.3rem #49bea3;
+        height: 14rem;
+        width: 23rem;
+        border-radius: 1rem;
+    }
+    #skills figcaption {
+        font-size: 1.7rem;
+    }
+    #skills h2 {
+        font-size: 1.9rem;
+    }
+    #skills ul {
+        font-size: 1.5rem;
+    }
+    /************************************************************************ prices */
+    #prices h2 {
+        font-size: 1.9rem;
+    }
+    #prices dt {
+        font-size: 1.5rem;
+    }
+    #prices dd {
+        font-size: 1.3rem;
+    }
+    #prices img {
+        border: solid 0.3rem #49bea3;
+        height: 14rem;
+        width: 23rem;
+        border-radius: 1rem;
+    }
+    #prices figcaption {
+        font-size: 1.7rem;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    /************************************************************************ home */
+    #home img {
+        height: 18rem;
+    }
+    #home h1 {
+        font-size: 3rem;
+        top: 5rem;
+    }
+    #home figcaption {
+        font-size: 2.5rem;
+        top: 9rem;
+    }
+}
+
+@media only screen and (min-width: 520px) {
+    /************************************************************************ small nav */
+    /* bars */
+    #smallNavBg ul {
+        font-size: 2.5rem;
+    }
+    /************************************************************************ home */
+    #home img {
+        height: 20rem;
+    }
+    #home h1 {
+        left: 1rem;
+    }
+    #home figcaption {
+        left: 2rem;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    /************************************************************************ socials */
+    #toggleSocials {
+        top: 40%;
+    }
+    #socials {
+        top: 47%;
+    }
+    /************************************************************************ home */
+    #home img {
+        height: 23rem;
+    }
+    #home h1 {
+        font-size: 4rem;
+        left: 2rem;
+        top: 8rem;
+    }
+    #home figcaption {
+        font-size: 3rem;
+        top: 13rem;
+        left: 6rem;
+    }
+}
+
+/* background: url("https://images.unsplash.com/photo-1447755086558-cb9e3830d677?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
