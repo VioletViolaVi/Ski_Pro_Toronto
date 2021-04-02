@@ -17,15 +17,15 @@ $("document").ready(function () {
     $("#socials").fadeToggle("fast");
   });
 
-  // scrolls to top of screen using arrow
-  $("#backToTopIcon").click(function () {
+  // goes back to top
+  $("#backToTopIcon").on("click", () => {
     window.scrollTo({
       top: 0,
     });
   });
 
-  // shows and hides back to top arrow
-  $(window).scroll(function () {
+  // toggles back to top btn
+  $(window).on("scroll", () => {
     if ($(this).scrollTop() > 300) {
       $("#backToTopSec").show();
     } else {
