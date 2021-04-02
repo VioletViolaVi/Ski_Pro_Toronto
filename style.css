@@ -436,6 +436,39 @@ body {
     #home img {
         margin-top: 0rem;
     }
+    #home h1 {
+        top: 6rem;
+    }
+    #home figcaption {
+        top: 12rem;
+    }
+    /************************************************************************ skills */
+    #skills {
+        display: grid;
+    }
+    #skills {
+        grid-template-areas: "photo info";
+    }
+    #skills figure {
+        grid-area: photo;
+        margin: auto;
+    }
+    #skills ul {
+        grid-area: info;
+    }
+    /************************************************************************ prices */
+    #prices {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    #prices figure {
+        margin: auto;
+    }
+    /************************************************************************ footer */
+    #footer{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
 }
 
 /* background: url("https://images.unsplash.com/photo-1447755086558-cb9e3830d677?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80");
