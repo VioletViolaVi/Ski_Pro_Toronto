@@ -31,8 +31,8 @@ figcaption {
     font-size: 1.2rem;
 }
 
-.far.fa-snowflake {
-    font-size: 0.6rem;
+.fas.fa-skiing-nordic {
+    font-size: 0.9rem;
 }
 
 /************************************************************************ small nav */
@@ -95,6 +95,24 @@ figcaption {
     display: none;
 }
 
+/************************************************************************ back to top btn  */
+
+#backToTopSec {
+    display: none;
+    bottom: 1em;
+    position: fixed;
+    right: 0.5em;
+    z-index: 1;
+    background-color: darkred;
+    border-radius: 0.2rem;
+}
+
+.fas.fa-arrow-circle-up {
+    border-radius: 2em;
+    cursor: pointer;
+    border: 0.1em solid darkred;
+}
+
 /************************************************************************ socials */
 
 #toggleSocials {
@@ -104,7 +122,7 @@ figcaption {
     left: 0.8rem;
 }
 
-#toggleSocials .fas.fa-caret-square-down {
+#toggleSocials .fas.fa-skiing {
     cursor: pointer;
 }
 
@@ -128,7 +146,7 @@ figcaption {
     font-size: 1.7rem;
 }
 
-#toggleSocials .fas.fa-caret-square-down:hover, #socials .fab.fa-instagram:hover, #socials .fab.fa-youtube:hover, #socials .fab.fa-twitter:hover, #socials .fab.fa-snapchat-ghost:hover, #socials .fab.fa-pinterest:hover, #socials .fab.fa-facebook:hover {
+#toggleSocials .fas.fa-skiing:hover, #socials .fab.fa-instagram:hover, #socials .fab.fa-youtube:hover, #socials .fab.fa-twitter:hover, #socials .fab.fa-snapchat-ghost:hover, #socials .fab.fa-pinterest:hover, #socials .fab.fa-facebook:hover {
     color: #14f7be;
 }
 

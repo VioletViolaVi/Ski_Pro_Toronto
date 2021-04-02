@@ -1,4 +1,5 @@
 $("document").ready(function () {
+
   // toggles small nav
   $("#barsBg .fas.fa-bars").on("click", () => {
     $("#smallNavBg").slideToggle();
@@ -12,7 +13,24 @@ $("document").ready(function () {
   });
 
   // shows socials
-  $("#toggleSocials .fas.fa-caret-square-down").on("click", () => {
+  $("#toggleSocials .fas.fa-skiing").on("click", () => {
     $("#socials").fadeToggle("fast");
   });
+
+  // scrolls to top of screen using arrow
+  $("#backToTopIcon").click(function () {
+    window.scrollTo({
+      top: 0,
+    });
+  });
+
+  // shows and hides back to top arrow
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 300) {
+      $("#backToTopSec").show();
+    } else {
+      $("#backToTopSec").hide();
+    }
+  });
+
 });
