@@ -99,9 +99,9 @@ figcaption {
 
 #toggleSocials {
     position: fixed;
-    top: 28%;
+    top: 11.5rem;
     font-size: 2rem;
-    left: 1.4%;
+    left: 0.8rem;
     color: #cffaed;
 }
 
@@ -111,14 +111,10 @@ figcaption {
 
 #socials {
     position: fixed;
-    top: 34%;
+    top: 14rem;
     display: none;
-    left: 1.8%;
+    left: 0.2rem;
     z-index: 1;
-}
-
-#socials ul {
-    font-size: 1.7rem;
 }
 
 #socials li {
@@ -130,6 +126,7 @@ figcaption {
     color: white;
     border-radius: 50%;
     padding: 0.5rem;
+    font-size: 1.7rem;
 }
 
 #toggleSocials .fas.fa-caret-square-down:hover, #socials .fab.fa-instagram:hover, #socials .fab.fa-youtube:hover, #socials .fab.fa-twitter:hover, #socials .fab.fa-snapchat-ghost:hover, #socials .fab.fa-pinterest:hover, #socials .fab.fa-facebook:hover {
@@ -187,7 +184,7 @@ figcaption {
 /************************************************************************ skills */
 
 #skills {
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     padding: 2rem 0rem;
     background-color: #e6f7f2;
 }
@@ -215,7 +212,7 @@ figcaption {
 /************************************************************************ prices */
 
 #prices {
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     padding: 2rem 0rem;
     background-color: #e6f7f2;
 }
@@ -243,7 +240,7 @@ figcaption {
 
 body {
     position: relative;
-    padding-bottom: 8rem;
+    padding-bottom: 8.5rem;
 }
 
 #footer {
@@ -264,10 +261,10 @@ body {
 @media only screen and (min-width: 422px) {
     /************************************************************************ socials */
     #toggleSocials {
-        top: 30%;
+        top: 12.5rem;
     }
     #socials {
-        top: 36%;
+        top: 15.3rem;
     }
     /************************************************************************ home */
     #home h1 {
@@ -349,10 +346,10 @@ body {
 @media only screen and (min-width: 700px) {
     /************************************************************************ socials */
     #toggleSocials {
-        top: 40%;
+        top: 15rem;
     }
     #socials {
-        top: 47%;
+        top: 18rem;
     }
     /************************************************************************ home */
     #home img {
@@ -465,13 +462,144 @@ body {
         margin: auto;
     }
     /************************************************************************ footer */
-    #footer{
+    body {
+        padding-bottom: 5rem;
+    }
+    #footer {
         display: grid;
         grid-template-columns: auto auto auto;
     }
 }
 
-/* background: url("https://images.unsplash.com/photo-1447755086558-cb9e3830d677?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; */
+@media only screen and (min-width: 1125px) {
+    /************************************************************************ big nav */
+    #bigNavBg {
+        font-size: 2.2rem;
+        margin-top: 1.5rem;
+    }
+    #bigNavBg li {
+        margin: 3rem;
+        padding: 0rem 2rem;
+    }
+    /************************************************************************ home */
+    #home img {
+        height: 34rem;
+    }
+    #home h1 {
+        top: 8rem;
+        left: 3rem;
+        font-size: 7rem;
+    }
+    #home figcaption {
+        top: 17rem;
+        font-size: 5rem;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    /************************************************************************ big nav */
+    #bigNavBg {
+        font-size: 4rem;
+        margin-top: 2rem;
+    }
+    #bigNavBg li {
+        margin: 1rem 4rem 0rem 2rem;
+        padding: 0rem 3rem;
+    }
+    /************************************************************************ home */
+    #home img {
+        height: 50rem;
+    }
+    #home h1 {
+        top: 13rem;
+        left: 2rem;
+        font-size: 9rem;
+    }
+    #home figcaption {
+        top: 23rem;
+        font-size: 7rem;
+        left: 7rem;
+    }
+    /************************************************************************ socials */
+    #toggleSocials {
+        top: 8rem;
+        font-size: 4rem;
+        left: 1.5rem;
+    }
+    #socials {
+        top: 13rem;
+        left: 0.5rem;
+    }
+    #socials .fab.fa-instagram, #socials .fab.fa-youtube, #socials .fab.fa-twitter, #socials .fab.fa-snapchat-ghost, #socials .fab.fa-pinterest, #socials .fab.fa-facebook {
+        padding: 1rem;
+        font-size: 2.9rem;
+    }
+    /************************************************************************ skills */
+    #skills img {
+        height: 22rem;
+        width: 32rem;
+    }
+    #skills figcaption {
+        font-size: 3rem;
+    }
+    #skills h2 {
+        font-size: 3.2rem;
+    }
+    #skills ul {
+        font-size: 2.5rem;
+    }
+    /************************************************************************ prices */
+    #prices h2 {
+        font-size: 3.2rem;
+    }
+    #prices dt {
+        font-size: 2.5rem;
+    }
+    #prices dd {
+        font-size: 2.4rem;
+    }
+    #prices figcaption {
+        font-size: 3rem;
+    }
+    #prices img {
+        height: 22rem;
+        width: 32rem;
+    }
+    /************************************************************************ footer */
+    body {
+        padding-bottom: 6rem;
+    }
+    #footer p {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-width: 1366px) {
+    /************************************************************************ home */
+    #home img {
+        height: 35rem;
+    }
+    #home h1 {
+        top: 7rem;
+        left: 5rem;
+        font-size: 8.5rem;
+    }
+    #home figcaption {
+        font-size: 6rem;
+        left: 13rem;
+        top: 17.1rem;
+    }
+    /************************************************************************ socials */
+    #toggleSocials {
+        top: 11.5rem;
+        font-size: 3rem;
+        left: 0.8rem;
+    }
+    #socials {
+        top: 15.5rem;
+    }
+    #socials .fab.fa-instagram, #socials .fab.fa-youtube, #socials .fab.fa-twitter, #socials .fab.fa-snapchat-ghost, #socials .fab.fa-pinterest, #socials .fab.fa-facebook {
+        padding: 0.8rem;
+        font-size: 1.5rem;
+    }
+}
