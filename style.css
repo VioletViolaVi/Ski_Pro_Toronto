@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Patrick Hand', Arial, Helvetica, sans-serif, cursive;
     color: #0e7a61;
     text-align: center;
     cursor: default;
@@ -35,12 +35,14 @@ figcaption {
     font-size: 0.6rem;
 }
 
-/************************************************************************ bars */
+/************************************************************************ small nav */
+
+/* bars */
 
 #barsBg {
     text-align: left;
     background-color: #49bea3;
-    position: absolute;
+    position: fixed;
     width: 100%;
     z-index: 1;
 }
@@ -55,15 +57,15 @@ figcaption {
     color: #14f7be;
 }
 
-/************************************************************************ small nav */
+/* nav */
 
 #smallNavBg {
     padding: 1rem 0rem;
     font-size: 2rem;
-    background-color: #9ef5df;
+    background-color: #e6f7f2;
     display: none;
     top: 2rem;
-    position: absolute;
+    position: fixed;
     width: 100%;
     z-index: 1;
 }
@@ -86,9 +88,10 @@ figcaption {
 
 #toggleSocials {
     position: fixed;
-    top: 38.5%;
+    top: 28%;
     font-size: 2rem;
     left: 1.4%;
+    opacity: 0.5;
 }
 
 #toggleSocials .fas.fa-caret-square-down {
@@ -97,9 +100,10 @@ figcaption {
 
 #socials {
     position: fixed;
-    top: 46%;
+    top: 34%;
     display: none;
     left: 1.8%;
+    z-index: 1;
 }
 
 #socials ul {
@@ -225,3 +229,21 @@ figcaption {
 }
 
 /************************************************************************ footer */
+
+body {
+    position: relative;
+    padding-bottom: 8rem;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    min-height: 0%;
+    width: 100%;
+    background-color: #49bea3;
+    padding: 0.5rem 0.2rem 0rem;
+}
+
+#footer p {
+    font-size: 1.3rem;
+}
